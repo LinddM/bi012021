@@ -47,30 +47,32 @@ Clone the repo
 
 ### Directory Tree
 
-│   docker-compose.yml
-│   README.md
-│
-├───covid19
-│       covid19.csv
-│       covid19.ipynb
-│
-├───data
-│       data.ipynb
-│       data.parquet
-│
-├───sql
-│       covid19.sql
-│       data.sql
-│       transactions.sql
-│       vaccinations.sql
-│
-├───transactions
-│       transactions.ipynb
-│       transactions.json
-│
-└───vaccinations
-        vaccinations.csv
-        vaccinations.ipynb
+```
+    │   docker-compose.yml
+    │   README.md
+    │
+    ├───covid19
+    │       covid19.csv
+    │       covid19.ipynb
+    │
+    ├───data
+    │       data.ipynb
+    │       data.parquet
+    │
+    ├───sql
+    │       covid19.sql
+    │       data.sql
+    │       transactions.sql
+    │       vaccinations.sql
+    │
+    ├───transactions
+    │       transactions.ipynb
+    │       transactions.json
+    │
+    └───vaccinations
+            vaccinations.csv
+            vaccinations.ipynb
+```
 
 Basically you'll find each ETL (.ipynb) with its raw (csv, parquet*, json) data in a different folder to keep order. SQL scripts are stored in the sql folder
 <i>* parquet file is not included in this repository because it's too heavy</i>
